@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Document</title>
 </head>
 <body>
-<h1>Home</h1>
-    <h2>Hello World</h2>
-
+<ul>
+    <li><a href="">{{$home}}</a></li>
+    <li><a href="">{{$about_us}}</a></li>
+    <li><a href="">{{$contacts}}</a></li>
+</ul>
 </body>
 </html>
